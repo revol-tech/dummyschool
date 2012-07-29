@@ -13,3 +13,44 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+$(function(){
+	
+
+$('#slider1').bxSlider({
+							mode		:'vertical',
+							infiniteLoop:'true',
+							controls	:true,
+							speed		:500,
+							easing		:'swing',
+							nextImage	:'down.jpg',//image to use as a button for "next" button
+							prevImage	:'up.jpg',//image to use as a button for "previous" button
+							nextSelector:'#sliderUp',
+							prevSelector:'#sliderDown',
+							auto		:true,
+							autoStart	:true,
+							autoHover	:true,
+							autoDirection:'next',
+							pause		:3000,
+							displaySlideQty:2
+						});
+
+	//for slider 2
+	$('#slider2').bxSlider({
+							mode		:'horizontal',
+							infiniteLoop:'true',
+							controls	:true,
+							speed		:500,
+							easing		:'swing',
+							nextImage	:'down.jpg',//image to use as a button for "next" button
+							prevImage	:'up.jpg',//image to use as a button for "previous" button
+							nextSelector:'#sliderUp',
+							prevSelector:'#sliderDown',
+							auto		:true,
+							autoStart	:true,
+							autoHover	:true,
+							autoDirection:'prev',
+							pause		:3000,
+							displaySlideQty:2
+						});
+})

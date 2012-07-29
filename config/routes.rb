@@ -1,4 +1,25 @@
 Dummyschool::Application.routes.draw do
+	
+	get "pages/home"
+
+  get "pages/about_us"
+
+  get "pages/finding_us"
+
+  get "pages/gallery"
+
+  get "pages/feedback"
+
+  get "pages/contact_us"
+
+  get "pages/notice_board"
+
+  get "pages/news"
+
+  get "pages/footer"
+
+	 get "pages/navigation"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -48,7 +69,7 @@ Dummyschool::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+   root :to => 'pages#index'
 
   # See how all your routes lay out with "rake routes"
 
