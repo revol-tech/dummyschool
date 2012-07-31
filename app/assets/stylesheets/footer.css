@@ -13,13 +13,13 @@ margin:0 auto;
 	float:right;
 	width:982px;
 	background-color:#eee;
-	
+
 	}
 
 
 #college_info{
 	display:block;
-	width:320px;
+	width:295px;
 	float:left;
 	border-right:2px solid #fff;
 	padding:20px 0 20px 20px;
@@ -27,17 +27,17 @@ margin:0 auto;
 
 
 #college_info h3{
- font:16px "arial";
+ font:bold 16px "arial";
 	color:#b63792;
-	
-	
+
+
 }
 
 #college_info p{
 color:#b63792;
 	font:12px "arial";
 
-	
+
 
 }
 
@@ -45,6 +45,16 @@ color:#b63792;
 color:#777978;
 font-size:12px;
 
+}
+#college_info a{
+color:#B63792;
+font-size:12px;
+text-decoration:none;
+}
+#college_info a:hover{
+color:#B63792;
+font-size:12px;
+text-decoration:underline;
 }
 
 
@@ -54,7 +64,7 @@ float:left;
 padding:20px 0 20px 20px;
 }
 
-.college_links{
+.college_links,.social_links{
 display:block;
 width:140px;
 float:left;
@@ -75,11 +85,6 @@ text-decoration:none;
 font:12px "arial";
 color:	#111;
 }
-
-
-
-
-
 #blank
 {
 display:block;
@@ -87,4 +92,22 @@ margin:0 auto;
 width:100%;
 background-color:#F5F5DC;
 height:400px;
+}
+.facebook {
+    background: url("social_network.png") no-repeat scroll left top transparent;
+    display: block;
+    height: 34px;
+    width: 149px;
+}
+.twitter {
+    background: url("social_network.png") no-repeat scroll left center transparent;
+    display: block;
+    height: 34px;
+    width: 149px;
+}
+.youtube {
+    background: url("social_network.png") no-repeat scroll left bottom transparent;
+    display: block;
+    height: 34px;
+    width: 149px;
 }

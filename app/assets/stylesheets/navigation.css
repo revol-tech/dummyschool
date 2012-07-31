@@ -1,21 +1,34 @@
-#main_nav{
+#header{
 width:100%;
 display:block;
 background-color:#000;
 margin: 0 auto;
-height:130px;
+height:105px;
 }
-#navigation{
+#main_header{
 		width:960px;
     display:block;
 		margin:0 auto;
+		height:105px;
   }
+#school_title{
+  display:block;
+  height:105px;
+  float:left;
+  width:300px;
 
+
+}
+#navigation{
+   display:block;
+   height:105px;
+   float:right;
+   width:660px;
+
+}
 #nav{
 display:block;
-width:960px;
-float:left;
-height:130px;
+height:70px;
 }
 
 #nav ul
@@ -24,16 +37,23 @@ height:130px;
 		margin:20px 0 0 0;
 		float:right;
   }
-
+#sub_nav ul
+  {
+    list-style:none;
+				float:right;
+  }
 #nav li
   {
   dispaly:inline;
 	float:left;
-	margin-right:20px;
+	margin-right:12px;
+}
+  #sub_nav li
+  {
+  dispaly:inline;
+	float:left;
 
-    
-		
-  }
+ }
 #nav a
 {
 	text-decoration:none;
@@ -46,16 +66,18 @@ height:130px;
 
 
 .search{
-	
-	margin:6px 0 0 10px;
-	width:150px;
+  border:none;
+  border-radius:3px;;
+	margin:0px 0 0 10px;
+	width:160px;
+	height:20px;
 }
 
 #sub_nav{
 display:block;
 float:right;
 width:495px;
-margin:15px 0 0 0;
+
 }
 
 #sub_nav a{
@@ -63,8 +85,8 @@ color:#fff;
 float:left;
 text-decoration:none;
 text-transform:uppercase;
-font-size:17px;
+font:16px "arial";
 float:left;
-margin:0 0 0 40px;
+margin:0 0 0 30px;
 padding:none!important;
 }
