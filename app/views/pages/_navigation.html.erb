@@ -7,7 +7,7 @@
 					  <div id="navigation">
 					      <div id="nav">
 						         <ul>	<% @value.each do |t|%>
-												<li><a href="#"><%=t.name%></a></li>
+												<li><%= link_to "#{t.name}", :controller=>"#{t.controller}",:action=>"#{t.action}"%></li>
 														<%end%>
 													<input class="search" type="text" name="search" value="search" />
 						         </ul>

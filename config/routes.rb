@@ -4,6 +4,8 @@ Dummyschool::Application.routes.draw do
 
   devise_for :admin_users, ActiveAdmin::Devise.config
 
+
+	
 	get "pages/home"
 
   get "pages/about_us"
@@ -24,6 +26,9 @@ Dummyschool::Application.routes.draw do
 
 	 get "pages/navigation"
 
+	resources :pages	
+	
+	 
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
