@@ -1,7 +1,9 @@
 
 class PagesController < ApplicationController
 	def index
-	@value= Nav.all()	
+	
+		@value= Nav.all()	
+		
 	end 
  
 	def home
@@ -32,6 +34,7 @@ class PagesController < ApplicationController
   end
 
 	def navigation
-		@value= Nav.all()
+			
+		
   end
 end

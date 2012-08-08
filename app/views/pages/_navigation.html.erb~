@@ -7,7 +7,7 @@
 					  <div id="navigation">
 					      <div id="nav">
 						         <ul>	<% @value.each do |t|%>
-												<li><a href="#"><%=t.name%></a></li>
+												<li><a href="home.html.erb"><%=t.name%></a></li>
 														<%end%>
 													<input class="search" type="text" name="search" value="search" />
 						         </ul>
