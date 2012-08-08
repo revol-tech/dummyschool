@@ -7,6 +7,7 @@ class PagesController < ApplicationController
 	end 
  
 	def home
+ 		
   end
 
   def about_us
@@ -34,7 +35,6 @@ class PagesController < ApplicationController
   end
 
 	def navigation
-			
-		
-  end
+	
+	end
 end
