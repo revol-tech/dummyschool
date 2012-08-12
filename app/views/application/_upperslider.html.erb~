@@ -8,42 +8,6 @@
 	   	                      <li><%= image_tag "#{t.name}", :width=>"300",:height=>"auto"%></li>
 	                    <%end%>
 					<%end%>
-		<li>
-				<div id="">
-						<%=image_tag"a.jpg",:class=>"slider_image" %></br> <!-- image here-->
-						Right from the start, Dummy College made me feel so welcome, like it was already my school.
-				</div>
-		</li>
-
-		<li>
-				<div>
-						<%=image_tag"b.jpg",:class=>"slider_image" %></br> <!-- image here-->
-						second image <!-- image text here-->
-				</div>
-		</li>
-
-		<li>
-				<div>
-						<%=image_tag"c.jpg",:class=>"slider_image" %></br> <!-- image here-->
-						third image<!-- image text here-->
-				</div>
-		</li>
-
-		<li>
-				<div>
-						<%=image_tag"d.jpg",:class=>"slider_image" %></br> <!-- image here-->
-						fourth image <!-- image text here-->
-				</div>
-		</li>
-
-		<li>
-				<div>
-						<%=image_tag"e.jpg",:class=>"slider_image" %></br> <!-- image here-->
-						12345678876543345678<br/>
-
-				</div>
-		</li>
-
 	</ul>
 <div id="management">
 		<a href="#">see our organization management</a>
@@ -57,42 +21,11 @@
 <div id='sliderWrapper2'>
 	<div id='sliderDown'></div>
 	<ul id='slider2'>
-
-		<li>
-				<div>
-						<%=image_tag"a.jpg" %></br> <!-- image here-->
-						Right from the start, Dummy College made me feel so welcome, like it was already my school.
-				</div>
-		</li>
-
-		<li>
-				<div>
-						<%=image_tag"b.jpg" %></br> <!-- image here-->
-						second image <!-- image text here-->
-				</div>
-		</li>
-
-		<li>
-				<div>
-						<%=image_tag"c.jpg" %></br> <!-- image here-->
-						third image<!-- image text here-->
-				</div>
-		</li>
-
-		<li>
-				<div>
-						<%=image_tag"d.jpg" %></br> <!-- image here-->
-						fourth image <!-- image text here-->
-				</div>
-		</li>
-
-		<li>
-				<div>
-						<%=image_tag"e.jpg" %></br> <!-- image here-->
-						12345678876543345678<br/>
-
-				</div>
-		</li>
+		<% if @slider1 %>
+		 <% @slider1.each do|t| %>
+	   	                      <li><%= image_tag "#{t.name}", :width=>"300",:height=>"auto"%></li>
+	                    <%end%>
+					<%end%>
 
 	</ul>
 	<div id='sliderUp'></div>

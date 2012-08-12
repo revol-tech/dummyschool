@@ -4,7 +4,7 @@ class SlidersController < ApplicationController
 	end
 
   def create
-    @slider = Slider.new(params[:name])
+    @slider = Slider.new(params[:slider])
 		@slider.save!
   end
 

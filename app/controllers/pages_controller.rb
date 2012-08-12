@@ -3,7 +3,8 @@ class PagesController < ApplicationController
 	def index
 	
 		@value= Nav.all()	
-		
+		@slider=Slider.all
+		@slider1=Slider1.all
 	end 
  
 	def home
