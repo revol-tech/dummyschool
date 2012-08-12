@@ -1,9 +1,10 @@
 class SlidersController < ApplicationController
   def new
-  end
+	binding.pry
+	end
 
   def create
-    @slider = Slider.new(params[:slider])
+    @slider = Slider.new(params[:name])
 		@slider.save!
   end
 
