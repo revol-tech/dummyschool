@@ -1,5 +1,5 @@
 class SlidersController < ApplicationController
-  def new
+def new
 	binding.pry
 	end
 
@@ -10,5 +10,6 @@ class SlidersController < ApplicationController
 
   def destroy
   end
+
 
 end

@@ -10,7 +10,11 @@
 					<%end%>
 	</ul>
 <div id="management">
-		<a href="#">see our organization management</a>
+	 <ul>
+	   <% @slider.each do|t| %>
+	   <li><%= "#{t.caption}" %></li>
+	      <%end%>
+	 </ul>
 </div>
 	<div id='sliderUp'></div>
 </div>
@@ -28,6 +32,13 @@
 					<%end%>
 
 	</ul>
+ <div>
+     <ul>
+           <% @slider1.each do|t| %>
+                 <li><%= "#{t.caption}" %></li>
+        <%end%>
+     </ul>
+</div>
 	<div id='sliderUp'></div>
 
 </div>
