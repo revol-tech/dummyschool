@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120812105822) do
+ActiveRecord::Schema.define(:version => 20120809054416) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -52,13 +52,6 @@ ActiveRecord::Schema.define(:version => 20120812105822) do
     t.datetime "updated_at", :null => false
     t.string   "controller"
     t.string   "action"
-  end
-
-  create_table "slider1s", :force => true do |t|
-    t.string   "name"
-    t.string   "caption"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
   end
 
 # Could not dump table "sliders" because of following StandardError
