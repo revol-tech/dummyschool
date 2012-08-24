@@ -5,18 +5,11 @@
 	<ul id='slider1'>
 			<% if @slider %>
 		 <% @slider.each do|t| %>
-	   	                      <li><%= image_tag "#{t.name}", :width=>"300",:height=>"auto"%></li>
+	   	                      <li style="color:#fff"><%= image_tag "#{t.name}"%><%= "#{t.caption}" %></li>
 	                    <%end%>
 					<%end%>
 	</ul>
-<div id="management">
-	 <ul>
-	   <% @slider.each do|t| %>
-	   <li><%= "#{t.caption}" %></li>
-	      <%end%>
-	 </ul>
-</div>
-	<div id='sliderUp'></div>
+		<div id='sliderUp'></div>
 </div>
 
 
@@ -27,7 +20,7 @@
 	<ul id='slider2'>
 		<% if @slider1 %>
 		 <% @slider1.each do|t| %>
-	   	                      <li><%= image_tag "#{t.name}", :width=>"300",:height=>"auto"%></li>
+	   	                      <li><%= image_tag "#{t.name}", :width=>"600",:height=>"auto"%></li>
 	                    <%end%>
 					<%end%>
 

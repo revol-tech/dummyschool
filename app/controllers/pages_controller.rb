@@ -5,6 +5,8 @@ class PagesController < ApplicationController
 		@value= Nav.all()	
 		@slider=Slider.all
 		@slider1=Slider1.all
+		@suloslider1=Suloslider1.all
+		@suloslider2=Suloslider2.all
 		
 	end 
  

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120812105822) do
+ActiveRecord::Schema.define(:version => 20120821073339) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -63,5 +63,19 @@ ActiveRecord::Schema.define(:version => 20120812105822) do
 
 # Could not dump table "sliders" because of following StandardError
 #   Unknown type 'name' for column 'string'
+
+  create_table "suloslider1s", :force => true do |t|
+    t.string   "name"
+    t.string   "content"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "suloslider2s", :force => true do |t|
+    t.string   "name"
+    t.string   "content"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
 end
